@@ -15,4 +15,6 @@
 
 body {
   margin: 0;
+  background-color: var(--bg-color, white);
+  color: var(--smile-color, black);
 }

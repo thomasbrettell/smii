@@ -1,5 +1,6 @@
 <script lang="ts">
   export let hideControls: boolean;
+  export let randomise: () => void;
 </script>
 
 <header>
@@ -10,7 +11,7 @@
       <span> hide controls </span>
     </label>
     <button>download</button>
-    <button>randomise</button>
+    <button on:click={randomise}>randomise</button>
   </div>
 </header>
 
@@ -22,6 +23,7 @@
     padding: 10px;
     justify-content: space-between;
     width: 100%;
+    z-index: 2;
   }
 
   .controls {
