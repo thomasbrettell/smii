@@ -4,7 +4,7 @@
 </script>
 
 <header>
-  <div>smii</div>
+  <div>smii - create simple faces</div>
   <div class="controls">
     <label>
       <input bind:checked={hideControls} type="checkbox" />
