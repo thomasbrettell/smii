@@ -228,16 +228,6 @@
 
       {#if !hideControls}
         <g class="controls">
-          <rect
-            x="0"
-            y="0"
-            width={SVG_SIZE}
-            height={SVG_SIZE}
-            fill="none"
-            stroke="black"
-            stroke-width={s(1)}
-            opacity="0.1"
-          />
           {#if bbox}
             <rect
               x={bbox.x}

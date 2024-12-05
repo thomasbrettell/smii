@@ -15,7 +15,7 @@
   </div>
 </header>
 
-<style>
+<style lang="scss">
   header {
     position: fixed;
     display: flex;
@@ -29,11 +29,25 @@
   .controls {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
   }
 
   label {
     display: flex;
     align-items: center;
+
+    input {
+      margin: 0;
+      margin-right: 5px;
+    }
+  }
+
+  button {
+    background: none;
+    font-family: inherit;
+    border: none;
+    font-size: 1rem;
+    color: inherit;
+    cursor: pointer;
   }
 </style>

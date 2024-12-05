@@ -17,4 +17,14 @@ body {
   margin: 0;
   background-color: var(--bg-color, white);
   color: var(--smile-color, black);
+  font-family: Neuehaasdisplay;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Neuehaasdisplay";
+  src: url("./NeueHaasDisplay-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
